@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(5, 17, 41);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.Navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(5, 17, 41, 0.5);
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 238, 255);
+    padding-left: 10px;
+    display: flex;
+}
+
+.nav{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.Navbar a:hover{
+    color: rgb(0, 238, 255);
+}
+
+.Navbar button{
+    height: 40px;
+    width: 110px;
+    border-radius: 40px;
+    background-color: rgb(0, 238, 255);
+    color: rgb(8, 27, 41);
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Navbar button:hover{
+    box-shadow:  0px 0px 5px, cyan 0px 0px 25px, cyan 0px 0px 50px, cyan 0px 0px 100px, cyan 0px 0px 200px;
+    cursor: pointer;
+}
+
+.home-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+}
+
+.home-image{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 10%;
+    background-image: url(pavan-image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;flex-wrap: wrap;
+}
+
+.home-content{
+    width: 650px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15%;
+}
+
+span{
+    color: rgb(0, 238, 255);
+    font-size: 30px;
+}
+.icons{
+    height: 25px;
+    width: 500px;
+}
+.icons i{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 50%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2{
+    margin-top: 10%;
+}
+
+.skills{
+    margin-top: 10vh;
+    margin-left: 20px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;                  
+}
+.skills i{
+    font-size: 90px;
+}
+.heading{
+    margin-left: 50%;
+}
+.python{
+    height: 150px;
+    width: 150px;
+}
+
+.skills h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css{
+    height: 150px;
+    width: 150px;
+}
+.html{
+    height: 150px;
+    width: 150px;
+}
+.javascript{
+    height: 150px;
+    width: 150px;
+}
+.java{
+    height: 150px;
+    width: 150px;
+}
+.c{
+    height: 150px;
+    width: 150px
+}
+.page3{
+    margin-top: 10vh;
+}
+
+.heading3{
+    margin-left: 50%;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pps{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pps-image{
+    height: 300px;
+    width: 250px;
+    background-image: url(pps\ project.png);
+    margin-top: 10px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pps-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    background-color: rgb(0, 238, 255);
+    color: rgb(8, 27, 41);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pps-btn:hover{
+    box-shadow: 0px 0px 5px, cyan 0px 0px 25px, cyan 0px 0px 50px, cyan 0px 0px 100px, cyan 0px 0px 200px;
+    cursor: pointer;
+}
+
+.page4{
+    margin-top: 10%;
+}
+
+.heading4{
+    margin-left: 50%;
+}
+
+.gradesheet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.sem1{
+    height: 500px;
+    width: 450px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sem1-image{
+    height: 470px;
+    width: 500px;
+    margin-top: 5%;
+    background-image: url(sem1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+
+.page5{
+    margin-top: 10%;
+}
+
+.heading5{
+    margin-left: 50%;
+}
+
+.hackathon{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hackathon-img{
+    width: 700px;
+    height: 300px;
+    margin-left: 5%;
+    background-image: url(AICTE.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    display: flex;
+}
+.hackathon-content{
+    width: 500px;
+    height: 230px;
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.page6{
+    margin-top: 15%;
+}
+.heading6{
+    margin-left: 50%;
+}
+.hackerrank{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;align-items: center;
+}
+.hackerrank-img{
+    width: 700px;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hackerrank-content{
+    width: 500px;
+    height: 100px;
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.page7{
+    margin-top: 10%;
+}
+.heading7{
+    margin-left: 50%;
+}
+
+.mycaptain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.mycaptain-img{
+    width: 600px;
+    height: 400px;
+    background-image: url(python-certificate.jpg);
+    background-size: cover;
+    display: flex;
+}
+.mycaptain-text{
+    width: 500px;
+    height: 200px;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+.c-language{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.page8{
+    margin-top: 15%;
+}
+
+.heading8{
+    margin-left: 50%;
+}
+
+.contact-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-name {
+    height: 50px;
+    width: 300px;
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-email{
+    height: 50px;
+    width: 300px;
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-message{
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgb(0, 238, 255);
+    color: rgb(8, 27, 41);
+    box-shadow: rgb(0, 238, 255) 0px 0px 5px, rgb(0, 238, 255) 0px 0px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    box-shadow: 0px 0px 5px, cyan 0px 0px 25px, cyan 0px 0px 50px, cyan 0px 0px 100px, cyan 0px 0px 200px;
+    cursor: pointer;
+}
+
+.contact-img{
+    height: 350px;
+    width: 400px;
+    margin-left: 10%;
+    background-image: url(contact.jpeg);
+    background-size: cover;
+}
